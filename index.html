@@ -8,12 +8,7 @@
     <!-- Tab title and icon -->
     <title>CUhackit</title>
     <!-- Custom styles -->
-    <link rel="stylesheet" href="./css/smaller.css">
-    <link rel="stylesheet" href="./css/small.css">
-    <link rel="stylesheet" href="./css/medium.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/large.css">
-    <link rel="stylesheet" href="./css/squares.css">
+    <link rel="stylesheet" href="./css/faq.css">
 
     <!-- Favicon -->
     <!-- <link rel="icon" href="./images/CUhackit_RGB2.png"> -->
@@ -21,18 +16,86 @@
     <link rel="stylesheet" href="https://webfonts.fontstand.com/WF-024682-e892056c2f2d30507bf3290339937e35.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     </head>
-    <body>
+    <body class="flex-column flex-space-between">
 
-    <!-- CONTENT -->
+        <!-- CONTENT -->
+        <navbar class="debug-border top-bar flex flex-align-center">
+            <div class="debug-border top-bar-left">
+                <div class="top-bar-line"></div>
+                <div class="top-bar-spacer"></div>
+            </div>
+            <img class="debug-border top-bar-colorbug" src="./static/CUhackit_RGB_Bug_Color.svg" alt="CUhackit ColorBug">
+            <div class="flex-grow top-bar-right">
+                <div class="top-bar-line"></div>
+                <div class="top-bar-spacer"></div>
+            </div>
+        </navbar>
 
-   
+        <a class="non-mobile" id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:absolute;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=gray" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-gray.svg" alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a>
+    
+        <!--CONTENT-->
+        <div class="debug-border question-section">
+            <h1 class="question-title">Questions?</h1>
+            <div class="debug-border question-container">
+                <div class="question flex-column question-open">
+                    <div class="flex flex-start flex-align-center question-mark-up">
+                        <div class="question-item-marker"></div>
+                        <a onclick="return false" href="#" class="question-head">How long is the hackathon?</a>
+                    </div>
+                    <p class="question-text block">48 Hours to a lifetime depending on dedication</p>
+                </div>
+                <div class="question flex-column">
+                    <div class="flex flex-start flex-align-center question-mark-up">
+                        <div class="question-item-marker"></div>
+                        <a onclick="return false" href="#" class="question-head">Do I have to stay the whole time?</a>
+                    </div>
+                    <p class="question-text none">Not necessarily, however, it's heavily encouraged</p>
+                </div>
+                <div class="question flex-column">
+                    <div class="flex flex-start flex-align-center question-mark-up">
+                        <div class="question-item-marker"></div>
+                        <a onclick="return false" href="#" class="question-head">How much will it cost?</a>
+                    </div>
+                    <p class="question-text none">Not necessarily, however, it's heavily encouraged</p>
+                </div>
+                <div class="question flex-column">
+                    <div class="flex flex-start flex-align-center question-mark-up">
+                        <div class="question-item-marker"></div>
+                        <a onclick="return false" href="#" class="question-head">Can I bring a work in progress to the event?</a>
+                    </div>
+                    <p class="question-text none">Not necessarily, however, it's heavily encouraged</p>
+                </div>
+                <div class="question flex-column">
+                    <div class="flex flex-start flex-align-center question-mark-up">
+                        <div class="question-item-marker"></div>
+                        <a onclick="return false" href="#" class="question-head">What if I've never coded before?</a>
+                    </div>
+                    <p class="question-text none">Not necessarily, however, it's heavily encouraged</p>
+                </div>
+                <div class="question flex-column">
+                    <div class="flex flex-start flex-align-center question-mark-up">
+                        <div class="question-item-marker"></div>
+                        <a onclick="return false" href="#" class="question-head">Am I eligible?</a>
+                    </div>
+                    <p class="question-text none">Not necessarily, however, it's heavily encouraged</p>
+                </div>
+                <div class="question question-last flex-column">
+                    <div class="flex flex-start flex-align-center question-mark-up">
+                        <div class="question-item-marker"></div>
+                        <a onclick="return false" href="#" class="question-head">Lorem ipsum dilet?</a>
+                    </div>
+                    <p class="question-text none">Not necessarily, however, it's heavily encouraged</p>
+                </div>
+            </div>
+        </div>
 
-    <!-- END CONTENT -->
-		<footer class="flex flex-space-between footer-margin-top">
+
+        <!-- END CONTENT -->
+		<footer class="flex flex-space-between footer">
 			<!-- Column 1 -->
-            <div class="inline-block debug-border width-third flex-column flex-align-center">
-                <div class="height-100 debug-border block footer-red"></div>
-                <div  class="height-100 debug-border block"></div>              
+            <div class="inline-block debug-border flex-column flex-align-center footer-red-container">
+                <div class="debug-border block footer-red"></div>
+                <div  class="debug-border footer-pad block"></div>              
             </div>
 			<!-- Column 2 -->
 			<div class="debug-border width-third footer-purple flex flex-space-around flex-align-center">
@@ -42,15 +105,12 @@
                 <a href="#" class="contact-btn"><i class="fab fa-instagram"></i></a>
 			</div>
 			<!-- Column 3 -->			
-			<div class="inline-block debug-border width-third flex-column flex-align-center">
-				<div class="height-100 debug-border block"></div>
-				<div  class="height-100 debug-border block footer-blue"></div>				
+			<div class="inline-block debug-border flex-column flex-align-center footer-blue-container">
+				<div class="debug-border footer-pad block"></div>
+				<div  class="debug-border block footer-blue"></div>				
 			</div>
 		</footer> 
         <!-- Optional JavaScript -->
-        <script src="./js/schedule.js"></script> 
-        <script src="./js/smoothscroll.js"></script> 
-        <script src="./js/slideshow.js"></script> 
-        <script src="./js/gen_squares.js"></script>
+        <script src="./js/faq.js"></script>
     </body>
 </html>
