@@ -2,7 +2,7 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-09-17 14:17:13
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-09-17 15:42:36
+* @Last Modified time: 2019-09-23 08:44:50
 */
 
 * {
@@ -130,7 +130,7 @@ body {
 .question-text {
 	font-size: var(--question-text-size);
 	margin-left: 65px;
-	max-width: 300px;
+	max-width: 400px;
 }
 
 .question-last {
